@@ -293,7 +293,7 @@ nav {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 0.5rem;
     transition: all 0.2s;
-    padding: 1.5rem;
+    padding: 1rem;
     margin: 1.5rem;
 }
 
@@ -309,7 +309,7 @@ nav {
 
 .tile img {
     /*width: 100%;*/
-    max-width: 29rem;
+    max-width: 30rem;
     border-radius: 0.5rem;
 }
 
