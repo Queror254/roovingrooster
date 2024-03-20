@@ -309,7 +309,7 @@ nav {
 }
 
 .tile img {
-    /*width: 100%;*/
+    width: 100%;
     max-width: 30rem;
     border-radius: 0.5rem;
 }
@@ -446,15 +446,26 @@ input[type="email"] {
                 .about-section .content-column .inner-column {
                     position: relative;
                     padding-top: 50px;
-                    padding-right: 100px;
+                    /*padding-right: 100px;*/
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center !important;
+                    align-content: center !important;
+                    align-items: center !important;
                 }
         
                 .about-section .content-column .text {
                     position: relative;
                     color: #777777;
-                    font-size: 15px;
+                    font-size: 1.6rem;
                     line-height: 2em;
                     margin-bottom: 40px;
+                    /*text-align: center;*/
+
+                }
+
+                .about_Hd{
+                    /*text-align: center;*/
                 }
         
                 .about-section .content-column .email {
@@ -763,4 +774,57 @@ input[type="email"] {
         margin-right: 0;
         font-weight: 600
     }
+}
+
+/*Footer Email*/
+.email_hd{
+    color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        letter-spacing: 1px !important;
+}
+.email_sec{
+    background-color: transparent;
+
+}
+
+.email_input_sec{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.email_input{
+    margin-bottom: 5px; 
+    margin-right: 20px;   
+}
+
+.email_input input{
+    border-radius: 10px;
+    padding: 5px;
+    width: 140px;
+    background-color: transparent;
+    color: white;
+    border-color: blue;
+}
+
+.email_input_textarea textarea{
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    border-color: blue;
+}
+
+.email_button_sec{
+        background-color: blue;
+        padding: 6px;
+        border-radius: 15px;
+        text-align: center;
+}
+
+.email_button{
+    color: white !important;
 }

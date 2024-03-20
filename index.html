@@ -22,6 +22,7 @@
                 <a href="index.html" class="nav-link">HOME</a>
                 <a href="services.html" class="nav-link">OUR SERVICE</a>
                 <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#contactus" class="nav-link">CONTACT US</a>
             </nav>
         </div>
     </header>
@@ -49,7 +50,7 @@
                         Roof maintenance is vital to the longevity of any RV. Inspections should be done every three to
                         six months.
                     </p>
-                    <button class="tile_btn" onclick="window.location.href = 'services.html';">
+                    <button class="tile_btn" onclick="window.location.href = 'services.html#roof';">
                         Learn More
                     </button>
                 </div>
@@ -60,7 +61,7 @@
                         the longevity of your
                         RV.
                     </p>
-                    <button class="tile_btn" onclick="window.location.href = 'services.html';">
+                    <button class="tile_btn" onclick="window.location.href = 'services.html#ac';">
                         Learn More
                     </button>
                 </div>
@@ -70,52 +71,60 @@
                     <p>
                         Furnaces,like the AC, is important to keeping the comfort inside your RV during the cold months.
                     </p>
-                    <button class="tile_btn" onclick="window.location.href = 'services.html';">
+                    <button class="tile_btn" onclick="window.location.href = 'services.html#furnace';">
                         Learn More
                     </button>
                 </div>
-            </div>
-            <div class="services_btn_link">
-                <button class="more_services_btn" onclick="window.location.href = 'services.html';">
-                    See more ...
-                </button>
+
+                <div class="tile">
+                    <img src="images/waterheater.jpg" alt="photo of red delicious apple" />
+                    <h4>Water heater inspection</h4>
+                    <p>
+                        Water heater inspection $95. The water heater is similar to the furnace in that is will have overheating protection
+                        built in.
+                    </p>
+                    <button class="tile_btn" onclick="window.location.href = 'services.html#waterheater';">
+                        Learn More
+                    </button>
+                </div>
+
             </div>
 
         </section>
         <section class="about-section" id="about">
                     <div class="container">
                         <div class="row clearfix">
-                
-                            <!--Content Column-->
-                            <div class="content-column col-md-6 col-sm-12 col-xs-12">
-                                <div class="inner-column">
-                                    <div class="sec-title">
-                                        <div class="title">About Us</div>
-                                        <h2>We Are The Leading RV <br> repair shop</h2>
-                                    </div>
-                                    <div class="text">
-                                        Roving Rooster RV Repair Shop is your trusted partner in keeping your RV in
-                                        top-notch condition for all your adventures
-                                        on the road. With years of experience and a dedicated team of experts, we specialize in
-                                        providing comprehensive
-                                        maintenance and repair services tailored to meet the unique needs of RV owners. From roof
-                                        inspections and AC maintenance
-                                        to furnace and water heater services, we ensure that every component of your RV functions
-                                        optimally, providing you with
-                                        peace of mind and comfort during your travels.
-                                    </div>
-                                </div>
-                            </div>
-                
-                            <!--Image Column-->
-                            <div class="image-column col-md-6 col-sm-12 col-xs-12">
-                                <div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="image">
-                                        <img src="images/rvphoto5.webp" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                
+
+            <!--Content Column-->
+            <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                <div class="inner-column">
+                    <div class="sec-title">
+                        <div class="section-heading">About Us</div>
+                        <h2 class="about_Hd">We Are The Leading RV <br> repair shop</h2>
+                    </div>
+                    <div class="text">
+                        Roving Rooster RV Repair Shop is your trusted partner in keeping your RV in
+                        top-notch condition for all your adventures
+                        on the road. With years of experience and a dedicated team of experts, we specialize in
+                        providing comprehensive
+                        maintenance and repair services tailored to meet the unique needs of RV owners. From roof
+                        inspections and AC maintenance
+                        to furnace and water heater services, we ensure that every component of your RV functions
+                        optimally, providing you with
+                        peace of mind and comfort during your travels.
+                    </div>
+                </div>
+            </div>
+
+                <!--Image Column-->
+                <div class="image-column col-md-6 col-sm-12 col-xs-12">
+                     <div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="image">
+                            <img src="images/rvphoto5.webp" alt="">
+                        </div>
+                    </div>
+                    </div>
+                                                           
                         </div>
                     </div>
                 </section>
@@ -144,7 +153,7 @@
                     </ul>
                 </div>
 
-                <div class="col-xs-6 col-md-3">
+                <div class="col-xs-6 col-md-3" id="contactus">
                     <h6>Contact Us</h6>
                     <ul class="footer-links">
                         <li><a href="#">Home</a></li>
@@ -153,6 +162,31 @@
 
                     </ul>
                 </div>
+
+                                <div class="col-xs-6 col-md-3">
+                                    <h6 class="email_hd">Get in touch :</h6>
+                                    <section class="email_sec">
+                                        <form>
+                                            <div class="email_input_sec">
+                                                <div class="email_input">
+                                                    <input name="name" placeholder="Name" type="text" class="text" />
+                                                </div>
+                                                <div class="email_input">
+                                                    <input name="Subject" placeholder="Subject" type="text" class="text" />
+                                                </div>
+                                            </div>
+                                            <div class="email_input_sec">
+                                                <div class="email_input_textarea">
+                                                    <textarea name="message" placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="email_button_sec">
+                                                <a href="#" class="email_button">Send Message</a>
+                                            </div>
+                                        </form>
+                                    </section>
+                                </div>
+                                
             </div>
             <hr>
         </div>
