@@ -314,7 +314,7 @@ nav {
         max-width: 100%;
         min-width: 20rem;
         padding: 1rem!important;
-       /*margin: 1.5rem auto;*/
+        margin: 1.5rem;
         height: auto;
     }
 }
