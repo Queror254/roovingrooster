@@ -276,9 +276,9 @@ nav {
     /*text-align: start;*/
     padding: 1px 2rem 5rem 2rem;
     width: auto;
-    justify-content: space-around;
     max-width: 150rem;
     margin: 0 auto;
+    gap:54px;
 }
 
 .sec-padding {
