@@ -91,6 +91,7 @@ h1:hover{
 
 
 
+
 body {
     margin: 0;
     padding: 0;
@@ -154,15 +155,20 @@ body {
 }
 
 #header-img {
-    height: 6.5rem;
+    height: 8.5rem;
     width: auto;
     margin-left: 40px;
 }
 
 @media (max-width: 800px) {
     #header-img {
-        height: 5.5rem;
+        height: 7.5rem;
     }
+}
+
+.navbar-toggler-icon{
+    width: 2.5rem;
+    height: 3.5rem;
 }
 
 .nav_spacer{
