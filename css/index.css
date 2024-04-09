@@ -10,6 +10,71 @@
     scroll-behavior: smooth;
 }
 
+/*** Hero text animation ***/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600");
+
+:root {
+    --bar-scale-y: 0;
+    --sparkle-color: rgb(253 244 215 / 40%);
+}
+
+@keyframes pop-word {
+    to {
+        transform: rotateX(0);
+    }
+}
+
+@keyframes show {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bar-scale {
+    to {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes sparkle {
+    0% {
+        transform: scale(0);
+    }
+
+    60% {
+        transform: scale(1) translate(4px, 1px) rotate(8deg);
+    }
+
+    100% {
+        transform: scale(0) translate(4px, 1px) rotate(8deg);
+    }
+}
+
+@keyframes shimmer {
+    to {
+        text-shadow: 0 0 8px red;
+    }
+}
+
+h1 {
+    color: white;
+
+    line-height: 0.85;
+    perspective: 500px;
+}
+
+.word {
+    display: block;
+
+    animation: show 0.01s forwards, pop-word 1.5s forwards;
+    animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
+    opacity: 0;
+
+    transform: rotateX(120deg);
+    transform-origin: 50% 100%;
+}
+/* End */
+
 body {
     margin: 0;
     padding: 0;
