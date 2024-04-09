@@ -50,9 +50,10 @@ body {
 }
 
 .nav_header_content {
-    max-width: 95rem;
+    max-width: 130rem;
     width: auto;
     margin: 0 auto;
+    background-color: white !important;
 }
 
 .header-content-div {
@@ -74,22 +75,41 @@ body {
 #header-img {
     height: 6.5rem;
     width: auto;
+    margin-left: 40px;
 }
 
 @media (max-width: 800px) {
     #header-img {
-        height: 4.5rem;
+        height: 5.5rem;
     }
+}
+
+.nav_spacer{
+    margin-right: 620px;
 }
 
 nav {
     position: relative;
     top: 0.8rem;
-    float: right;
     font-size: 1.6rem;
     font-weight: 500;
-    padding: 1rem;
+    padding: 1rem !important;
+}
+
+.nav ul{
+    text-decoration: none;
+}
+
+.nav a{
+    text-decoration: none!important;
+    transition: color 2s ease;
+    transition-delay: 2s ease;
+}
+
+.navbar-nav{
     background-color: #040436;
+    padding: 1rem;
+    color: white !important;
 }
 
 @media (max-width: 800px) {
@@ -103,7 +123,7 @@ nav {
 
 .nav-link {
     text-decoration: none !important;
-    color: white;
+    color: white!important;
     margin: 0 0.5rem;
     padding: 0 0.6rem;
     transition: border-bottom 0.2s;
@@ -123,7 +143,7 @@ nav {
 }
 
 .nav-link:active {
-    color: #f84848;
+    color: #f84848 !important;
 }
 
 .flexible {
@@ -222,6 +242,7 @@ nav {
 
 .tile_btn:hover {
     background-color: #040436;
+
     cursor: pointer;
 }
 
@@ -243,6 +264,7 @@ nav {
 
 .btn:hover {
     background-color: #040436;
+    color:white;
     cursor: pointer;
 }
 
@@ -647,6 +669,7 @@ input[type="email"] {
 
 .site-footer a {
     color: #737373;
+    text-decoration: none;
 }
 
 .site-footer a:hover {

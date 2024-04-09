@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="images/logo2.PNG" sizes="192x192" />
     <title>Roving Rooster RV-Repair</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap css-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="css/index.css" />
@@ -15,23 +17,43 @@
 
 <body>
     <header class="nav_header">
-        <div class="nav_header_content">
+    <div class="nav_header_content">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
             <a href="index.html">
-                <img src="images/logo.png" alt="Company Logo" id="header-img" /></a>
-            <nav id="nav-bar">
-                <a href="index.html" class="nav-link">HOME</a>
-                <a href="services.html" class="nav-link">OUR SERVICE</a>
-                <a href="#about" class="nav-link">ABOUT</a>
-                <a href="#contactus" class="nav-link">CONTACT US</a>
-            </nav>
-        </div>
-    </header>
+                <img class="navbar-brand" src="images/logo.png" alt="Company Logo" id="header-img" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="nav_spacer"></div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">OUR SERVICE</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">ABOUT</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contactus">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    </div>
+    </header>
     <header id="header" style="background-image: url('images/rvimage6.jpg');">
         <section id="home-sec" class="flexible home-sec">
             <div class="eye-grabber">
                 <h1>Embark on Your Next<br> Journey with Confidence.</h1>
-                <button class="btn" onclick="window.location.href = '#services';">
+                <button class="btn hero_btn" onclick="window.location.href = '#services';">
                     Services
                 </button>
             </div>
@@ -208,6 +230,13 @@
             </div>
         </div>
     </footer>
+
+    <!-- Bootstrap js bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+            <script src="js/main.js"></script>
+
 </body>
 
 </html>
