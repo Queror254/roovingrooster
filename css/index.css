@@ -156,6 +156,13 @@ body {
 .navbar{
     max-height: 110px;
 }
+
+@media (max-width:749px) {
+    .navbar{
+        max-height:200px
+    }   
+}
+
 #header-img {
     height: 12.5rem;
     width: 13rem;
